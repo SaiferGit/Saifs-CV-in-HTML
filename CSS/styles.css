@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Itim&display=swap");
+
+* {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+body {
+  background: #c4c4c4;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.resume_wrapper {
+  /* changing div display  */
+  display: flex;
+  /* width of parent div */
+  width: 800px;
+  /* margin setup */
+  margin: 50px auto;
+  background: #fff;
+  /* padding from all sides */
+  padding: 10px;
+}
+
+.resume_wrapper .resume_left {
+  width: 35%;
+  background: #26252d;
+}
+
+.resume_wrapper .resume_left .resume_image {
+  width: 100%;
+}
+
+.resume_wrapper .resume_left .resume_image img {
+  width: 100%;
+  display: block;
+}
+
+.resume_wrapper .resume_title {
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 16px;
+  /* margin after title */
+  margin-bottom: 10px;
+  letter-spacing: 4px;
+}
+
+.resume_wrapper .resume_left .resume_info {
+  color: #84838b;
+}
+
+.resume_wrapper .resume_left .resume_bottom {
+  padding: 20px 30px;
+}
+
+.resume_wrapper .resume_item {
+  padding: 20px 0;
+  border-bottom: 1px solid #0175b2;
+}
+
+/* no border needed for last child */
+.resume_wrapper .resume_item:last-child {
+  border-bottom: 0px;
+}
+
+/* CV holder name */
+.resume_wrapper .resume_namerole .name {
+  font-family: "Itim", cursive;
+  font-size: 20px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 5px;
+  letter-spacing: 4px;
+}
+
+/* setting up cv holder role */
+.resume_wrapper .resume_namerole .role {
+  color: #84838b;
+}
+
+/* Contact infos in a line */
+.resume_wrapper .resume_left .resume_contact .resume_info {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* removing underline from href and changing color of the text */
+.resume_wrapper .resume_left .resume_contact .resume_info .resume_subinfo a {
+  color: #84838b;
+  text-decoration: none;
+}
+
+/* .resume_wrapper .resume_left .resume_contact .resume_info:last-child {
+  margin-top: 10px;
+} */
+
+/* fontawesome icons in contact color changing */
+.resume_wrapper .resume_left .resume_contact .resume_subtitle {
+  color: #fff;
+  margin-bottom: 2px;
+}
+
+.resume_wrapper .resume_left .resume_skills .skills_list {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.resume_wrapper .resume_left .resume_skills .skills_list .skills_bar p {
+  position: relative;
+  width: 125px;
+  height: 20px;
+  background: #fff;
+}
+
+.resume_wrapper .resume_left .resume_skills .skills_list .skills_bar p span {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: #0175b2;
+  width: 100%;
+  height: 100%;
+}
