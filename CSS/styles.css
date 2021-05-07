@@ -95,6 +95,11 @@ body {
   color: #84838b;
 }
 
+.resume_wrapper .resume_left .resume_address .resume_info i {
+  color: #fff;
+  margin-right: 5px;
+}
+
 /* Contact infos in a line */
 .resume_wrapper .resume_left .resume_contact .resume_info {
   display: flex;
@@ -123,14 +128,15 @@ body {
   margin-bottom: 5px;
 }
 
-.resume_wrapper .resume_left .resume_skills .skills_list .skills_bar p {
+/* .resume_wrapper .resume_left .resume_skills .skills_list .skills_bar p {
   position: relative;
   width: 125px;
   height: 20px;
   background: #fff;
-}
+} 
+*/
 
-.resume_wrapper .resume_left .resume_skills .skills_list .skills_bar p span {
+/* .resume_wrapper .resume_left .resume_skills .skills_list .skills_bar p span {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -139,7 +145,23 @@ body {
   background: #0175b2;
   width: 100%;
   height: 100%;
+} */
+
+.resume_wrapper .resume_left .resume_interests .resume_info {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
 }
+
+.resume_wrapper .resume_left .resume_interests .interests .int_icon {
+  font-size: 38px;
+  color: #0175b2;
+  margin-bottom: 10px;
+}
+
+/* 
+  resume right part goes here
+*/
 
 .resume_wrapper .resume_right {
   width: 63%;
@@ -148,11 +170,12 @@ body {
 
 .resume_wrapper .resume_right .resume_namerole .name {
   color: #26252d;
-  font-size: 32px;
+  font-size: 36px;
 }
 
 .resume_wrapper .resume_right .resume_namerole .role {
-  font-size: 14px;
+  margin-top: 5px;
+  font-size: 18px;
   text-transform: uppercase;
 }
 
@@ -207,24 +230,12 @@ body {
   right: 4px;
   width: 3px;
   height: 90%;
-  background: #2625ed;
+  background: #2a5697;
 }
 
 /* for last child there will be no solid line*/
 .resume_wrapper .resume_right .resume_data:last-child .year::after {
   display: none;
-}
-
-.resume_wrapper .resume_right .resume_interests .resume_info {
-  display: flex;
-  justify-content: space-between;
-  text-align: center;
-}
-
-.resume_wrapper .resume_right .resume_interests .interests .int_icon {
-  font-size: 38px;
-  color: #0175b2;
-  margin-bottom: 10px;
 }
 
 /* list style */
@@ -251,4 +262,25 @@ li {
 
 .resume_wrapper .resume_right .resume_projects a:hover {
   color: red;
+}
+
+.resume_wrapper
+  .resume_right
+  .resume_achivements
+  .resume_info
+  .resume_data
+  .content {
+  padding-left: 10px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.resume_wrapper
+  .resume_right
+  .resume_achivements
+  .resume_info
+  .resume_data
+  .content
+  p {
+  font-style: italic;
 }
