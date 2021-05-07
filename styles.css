@@ -11,7 +11,8 @@
 }
 
 body {
-  background: #c4c4c4;
+  background: rgb(158, 156, 134);
+  /* background: #c4c4c4; */
   font-size: 14px;
   line-height: 20px;
 }
@@ -31,8 +32,8 @@ body {
 
 .resume_wrapper .resume_left {
   width: 37%;
-  /* background: rgb(219, 221, 222); */
-  background: #26252d;
+  background: rgb(204, 198, 148);
+  /* background: #26252d; */
 }
 
 .resume_wrapper .resume_left .resume_image {
@@ -45,8 +46,8 @@ body {
 }
 
 .resume_wrapper .resume_title {
-  /* color: #26252d; */
-  color: #fff;
+  color: #26252d;
+  /* color: #fff; */
   text-transform: uppercase;
   font-weight: bold;
   font-size: 16px;
@@ -56,8 +57,8 @@ body {
 }
 
 .resume_wrapper .resume_left .resume_info {
-  /* color: #26252d; */
-  color: #84838b;
+  color: #26252d;
+  /* color: #84838b; */
 }
 
 .resume_wrapper .resume_left .resume_bottom {
@@ -96,7 +97,8 @@ body {
 }
 
 .resume_wrapper .resume_left .resume_address .resume_info i {
-  color: #fff;
+  color: #26252d;
+  /* color: #fff; */
   margin-right: 5px;
 }
 
@@ -108,7 +110,8 @@ body {
 
 /* removing underline from href and changing color of the text */
 .resume_wrapper .resume_left .resume_contact .resume_info .resume_subinfo a {
-  color: #84838b;
+  color: #26252d;
+  /* color: #84838b; */
   text-decoration: none;
 }
 
@@ -118,7 +121,8 @@ body {
 
 /* fontawesome icons in contact color changing */
 .resume_wrapper .resume_left .resume_contact .resume_subtitle {
-  color: #fff;
+  color: #26252d;
+  /* color: #fff; */
   margin-bottom: 2px;
 }
 
