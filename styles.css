@@ -97,7 +97,7 @@ body {
 }
 
 .resume_wrapper .resume_left .resume_address .resume_info i {
-  color: #26252d;
+  color: #0175b2;
   /* color: #fff; */
   margin-right: 5px;
 }
@@ -121,7 +121,7 @@ body {
 
 /* fontawesome icons in contact color changing */
 .resume_wrapper .resume_left .resume_contact .resume_subtitle {
-  color: #26252d;
+  color: #0175b2;
   /* color: #fff; */
   margin-bottom: 2px;
 }
