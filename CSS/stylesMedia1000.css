@@ -1,15 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
-
-@import url("https://fonts.googleapis.com/css2?family=Itim&display=swap");
-
-* {
-  font-family: "Roboto", sans-serif;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  list-style: none;
-}
-
 body {
   background: rgb(158, 156, 134);
   /* background: #c4c4c4; */
@@ -21,7 +9,7 @@ body {
   /* changing div display  */
   display: flex;
   /* width of parent div */
-  width: 900px;
+  width: 1000px;
   /* margin setup */
   margin: 50px auto;
   /* background: rgb(245, 245, 245); */
@@ -67,7 +55,7 @@ body {
 
 .resume_wrapper .resume_item {
   padding: 20px 0;
-  border-bottom: 1px solid #0175b2;
+  border-bottom: 1px solid #000;
 }
 
 /* no border needed for last child */
@@ -83,8 +71,8 @@ body {
 /* CV holder name */
 .resume_wrapper .resume_namerole .name {
   font-family: "Itim", cursive;
-  font-size: 20px;
-  color: #fff;
+  font-size: 30px;
+  color: #26252d;
   text-transform: uppercase;
   font-weight: bold;
   margin-bottom: 5px;
@@ -93,11 +81,13 @@ body {
 
 /* setting up cv holder role */
 .resume_wrapper .resume_namerole .role {
-  color: #84838b;
+  color: #26252d;
+  text-transform: uppercase;
+  font-size: 20px;
 }
 
 .resume_wrapper .resume_left .resume_address .resume_info i {
-  color: #0175b2;
+  color: #000;
   /* color: #fff; */
   margin-right: 5px;
 }
@@ -121,7 +111,7 @@ body {
 
 /* fontawesome icons in contact color changing */
 .resume_wrapper .resume_left .resume_contact .resume_subtitle {
-  color: #0175b2;
+  color: #26252d;
   /* color: #fff; */
   margin-bottom: 2px;
 }
@@ -132,13 +122,17 @@ body {
   margin-bottom: 5px;
 }
 
-/* .resume_wrapper .resume_left .resume_skills .skills_list .skills_bar p {
+.resume_wrapper .resume_left .resume_skills .skills_list .skills_left {
+  font-weight: bold;
+  /* background-color: #0175b2; */
+}
+
+.resume_wrapper .resume_left .resume_skills .skills_list .skills_bar {
   position: relative;
-  width: 125px;
+  /* width: 205px; */
   height: 20px;
-  background: #fff;
-} 
-*/
+  /* background: #fff; */
+}
 
 /* .resume_wrapper .resume_left .resume_skills .skills_list .skills_bar p span {
   position: absolute;
@@ -288,3 +282,9 @@ li {
   p {
   font-style: italic;
 }
+
+/* 
+
+  Responsive design
+
+*/

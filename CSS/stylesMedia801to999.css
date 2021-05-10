@@ -1,0 +1,8 @@
+@media screen and (min-width: 801px) and (max-width: 999px) {
+  .resume_wrapper {
+    width: 90%;
+  }
+  .resume_wrapper .resume_right .resume_namerole .name {
+    font-size: 26px;
+  }
+}

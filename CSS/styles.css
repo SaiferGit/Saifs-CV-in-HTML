@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Itim&display=swap");
+
+/* 
+
+  importing responsive designs
+
+*/
+
+@import "/CSS/stylesMedia1000.css";
+@import "/CSS/stylesMedia801to999.css";
+@import "/CSS/stylesMedia800.css";
+@import "/CSS/stylesMedia424.css";
+
+/* 
+
+responsive designs imported
+
+*/
+
+* {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}

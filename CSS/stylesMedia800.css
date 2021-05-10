@@ -1,0 +1,23 @@
+@media screen and (max-width: 800px) {
+  /* erasing right name and role */
+  .resume_wrapper .resume_right .resume_namerole {
+    display: none;
+  }
+
+  /* showing the left name and role which was hidden initially */
+  .resume_wrapper .resume_left .resume_namerole {
+    display: block;
+  }
+
+  .resume_wrapper {
+    /* parent width wrt screen */
+    width: 95%;
+    margin: 10px auto;
+    flex-direction: column;
+  }
+
+  .resume_wrapper .resume_right,
+  .resume_wrapper .resume_left {
+    width: 100%;
+  }
+}

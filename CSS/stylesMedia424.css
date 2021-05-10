@@ -1,0 +1,31 @@
+@media screen and (max-width: 424px) {
+  /* erasing right name and role */
+  .resume_wrapper .resume_right {
+    padding: 20px 30px;
+  }
+
+  .resume_wrapper .resume_right .resume_data {
+    flex-direction: column;
+  }
+
+  .resume_wrapper .resume_right .resume_data .year {
+    padding: 0;
+    margin-bottom: 5px;
+    width: 100%;
+    color: #2a5697;
+  }
+
+  .resume_wrapper .resume_right .resume_data .year::before,
+  .resume_wrapper .resume_right .resume_data .year::after {
+    display: none;
+  }
+
+  .resume_wrapper .resume_right .resume_data .content {
+    width: 100%;
+    padding: 0;
+  }
+
+  .resume_wrapper .resume_right .interests .int_icon {
+    font-size: 24px;
+  }
+}
