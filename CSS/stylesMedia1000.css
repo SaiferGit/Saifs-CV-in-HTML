@@ -29,6 +29,10 @@ body {
 }
 
 .resume_wrapper .resume_left .resume_image img {
+  /* for radius types */
+  /* border-radius: 50%;
+  margin-left: 5%;
+  width: 90%; */
   width: 100%;
   display: block;
 }
